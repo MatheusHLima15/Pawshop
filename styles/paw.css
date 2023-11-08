@@ -1,0 +1,29 @@
+:root{
+    --azul:  #6EB3D0;
+    --verde:  #2f9e00;
+    --rosa:  #F7B6D2;
+    --laranja:  #F4A623;
+    --preto: #000000;
+   --branco: #FFFFFF;
+}
+
+header,footer{
+    background-color: var(--azul);
+}
+
+
+body{
+    background-color: #2c2c2c !important;
+}
+
+.card button{
+    background-color: var(--rosa);
+    border-radius: 0px ;
+    border: none;
+    width: 10rem;
+    color: #000000;
+}
+
+.card button:hover{
+    background-color: #f83e8f;
+}
