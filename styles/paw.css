@@ -27,3 +27,25 @@ body{
 .card button:hover{
     background-color: #f83e8f;
 }
+
+#adote{
+    width: 100% ;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    width: 70%;
+    height: 100%;
+}
+
+#button2{
+background-color: var(--azul) !important;
+border-radius: 0px;
+border: none;
+width: 10rem;
+}
+
+#button2:hover{
+    background-color: #00b3ff !important;
+}
